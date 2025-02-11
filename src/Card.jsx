@@ -5,9 +5,9 @@ import Title from "./Title";
 
 export default function Card() {
   return (
-    <div>
+    <div className="card">
       <Title />
-      <Count number={5} />
+      <Count />
       <ResetButton />
 
       <CountButtons />

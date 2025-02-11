@@ -1,3 +1,3 @@
 export default function ResetButton() {
-  return <button>Reset</button>;
+  return <button className="reset-btn">Reset</button>;
 }
